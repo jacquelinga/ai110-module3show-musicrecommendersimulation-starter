@@ -3,7 +3,7 @@
 ## 1. Model Name  
 
 Give your model a short, descriptive name.  
-Example: **VibeFinder 1.0**  
+Example: **VibeFinder 1.0**  MyMusic 1.0
 
 ---
 
@@ -11,11 +11,7 @@ Example: **VibeFinder 1.0**
 
 Describe what your recommender is designed to do and who it is for. 
 
-Prompts:  
-
-- What kind of recommendations does it generate  
-- What assumptions does it make about the user  
-- Is this for real users or classroom exploration  
+its a system that suggests songs based on the users favorite genre mood and energy level. it assumes that songs matching these preferences are likely to be enjoyed by the user. Its designed for experimentation.
 
 ---
 
@@ -23,14 +19,9 @@ Prompts:
 
 Explain your scoring approach in simple language.  
 
-Prompts:  
+Songs earn points and the system recommends based on higher points. 
 
-- What features of each song are used (genre, energy, mood, etc.)  
-- What user preferences are considered  
-- How does the model turn those into a score  
-- What changes did you make from the starter logic  
 
-Avoid code here. Pretend you are explaining the idea to a friend who does not program.
 
 ---
 
@@ -38,38 +29,21 @@ Avoid code here. Pretend you are explaining the idea to a friend who does not pr
 
 Describe the dataset the model uses.  
 
-Prompts:  
-
-- How many songs are in the catalog  
-- What genres or moods are represented  
-- Did you add or remove data  
-- Are there parts of musical taste missing in the dataset  
+the model inclsuded 15 songs with different types of music. 
 
 ---
 
 ## 5. Strengths  
 
 Where does your system seem to work well  
-
-Prompts:  
-
-- User types for which it gives reasonable results  
-- Any patterns you think your scoring captures correctly  
-- Cases where the recommendations matched your intuition  
-
+It actually recommends based on perferences instead of throwing random songs. 
 ---
 
 ## 6. Limitations and Bias 
 
 Where the system struggles or behaves unfairly. 
 
-Prompts:  
-
-- Features it does not consider  
-- Genres or moods that are underrepresented  
-- Cases where the system overfits to one preference  
-- Ways the scoring might unintentionally favor some users  
-
+during my experiment i noticed that the recommender gives alot of importance to energy levels. When i doubled energy weight and reduced genres weight the recommendation scores changed but the rankings stayed the same for all 3 profiles. This shos that changing the weight doesnt improve recommendations. One limitation is that the system may recommend songs with similar energy levels even if they do not match the users prefered genre. 
 ---
 
 ## 7. Evaluation  
@@ -85,27 +59,21 @@ Prompts:
 
 No need for numeric metrics unless you created some.
 
+I tested 3 different user profiles. each profile recieved 5 song recommendations based on genre mood and energy. I was surprised that doubling the energy weight and reducing the genre weight changed the scores but not the rankings. this showed me that adjusting the score weights does not always change recommendations. 
+i noticed that each profile recieved a differnet top recommendation. This suggests that the recommender can distinguish between the 3 profiles but the experiment did not demonstrate an imporvement in recommendation quality. 
+
 ---
 
 ## 8. Future Work  
 
 Ideas for how you would improve the model next.  
 
-Prompts:  
-
-- Additional features or preferences  
-- Better ways to explain recommendations  
-- Improving diversity among the top results  
-- Handling more complex user tastes  
+i would like to add more songs and genres. 
 
 ---
 
 ## 9. Personal Reflection  
 
-A few sentences about your experience.  
+ this project helped me understand how music recommendations work. 
 
-Prompts:  
-
-- What you learned about recommender systems  
-- Something unexpected or interesting you discovered  
-- How this changed the way you think about music recommendation apps  
+ i learned that while github can help me with writing code i still need to verify the code, understand the logic and identify weaknesses. 

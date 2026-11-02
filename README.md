@@ -138,5 +138,60 @@ Write 1 to 2 paragraphs here about what you learned:
 - about how recommenders turn data into predictions
 - about where bias or unfairness could show up in systems like this
 
+## Phase 4: User Profile Evaluation
 
+```text
+High-Energy Pop - Top 5 recommendations:
+
+Sunrise City - Score: 5.96
+Because: Genre match (+2); Mood match (+2); Energy similarity (+1.96)
+
+Rooftop Lights - Score: 3.92
+Because: Mood match (+2); Energy similarity (+1.92)
+
+Gym Hero - Score: 3.74
+Because: Genre match (+2); Energy similarity (+1.74)
+
+Velvet Weekend - Score: 1.98
+Because: Energy similarity (+1.98)
+
+Night Drive Loop - Score: 1.90
+Because: Energy similarity (+1.90)
+
+
+Chill Lofi - Top 5 recommendations:
+
+Library Rain - Score: 5.90
+Because: Genre match (+2); Mood match (+2); Energy similarity (+1.90)
+
+Midnight Coding - Score: 5.76
+Because: Genre match (+2); Mood match (+2); Energy similarity (+1.76)
+
+Spacewalk Thoughts - Score: 3.96
+Because: Mood match (+2); Energy similarity (+1.96)
+
+Focus Flow - Score: 3.80
+Because: Genre match (+2); Energy similarity (+1.80)
+
+Glass Garden - Score: 1.88
+Because: Energy similarity (+1.88)
+
+
+Intense Rock - Top 5 recommendations:
+
+Storm Runner - Score: 5.98
+Because: Genre match (+2); Mood match (+2); Energy similarity (+1.98)
+
+Gym Hero - Score: 3.94
+Because: Mood match (+2); Energy similarity (+1.94)
+
+Iron Horizon - Score: 1.92
+Because: Energy similarity (+1.92)
+
+Sunrise City - Score: 1.84
+Because: Energy similarity (+1.84)
+
+Velvet Weekend - Score: 1.78
+Because: Energy similarity (+1.78)
+```
 
